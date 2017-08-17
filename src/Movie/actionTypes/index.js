@@ -1,0 +1,5 @@
+export const FETCH_MOVIE = "FETCH_MOVIE"
+export const MOVIE_UP = "MOVIE_UP"
+export const MOVIE_DOWN = "MOVIE_DOWN"
+export const LOAD_START = "LOAD_START"
+export const LOAD_END = "LOAD_END"

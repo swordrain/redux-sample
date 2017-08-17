@@ -3,6 +3,7 @@ import React from 'react';
 import {Provider} from 'react-redux'
 import Movie from './views//Movie'
 import store from './store'
+import DevTools from './views/DevTools'
 
 export default class MovieContainer extends React.Component{
 
@@ -10,7 +11,10 @@ export default class MovieContainer extends React.Component{
 	render() {
 		return (
 			<Provider store={store}>
-				<Movie />
+				<div>
+					<Movie />
+					<DevTools />
+				</div>
 			</Provider>
 
 			)
